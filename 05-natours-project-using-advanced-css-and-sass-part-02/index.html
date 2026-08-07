@@ -47,10 +47,12 @@
       </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
-          <span class="heading-primary--main">Outdoors</span>
+          <span class="heading-primary--main">outdoors</span>
           <span class="heading-primary--sub">is where life happens</span>
         </h1>
-        <a class="btn btn--white btn--animated" href="#">Discover our tours</a>
+        <a class="btn btn--white btn--animated" href="#section-tours">
+          discover our tours
+        </a>
       </div>
     </header>
     <main>
@@ -152,7 +154,7 @@
           </div>
         </div>
       </section>
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">most popular tours</h2>
         </div>
@@ -163,8 +165,8 @@
                 <div class="card__picture card__picture--1">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--1">
-                    the sea explorer</span
-                  >
+                    the sea explorer
+                  </span>
                 </h4>
                 <div class="card__details">
                   <ul>
@@ -182,7 +184,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$297</p>
                   </div>
-                  <a class="btn btn--white" href="#">book now!</a>
+                  <a class="btn btn--white" href="#popup">book now!</a>
                 </div>
               </div>
             </div>
@@ -193,8 +195,8 @@
                 <div class="card__picture card__picture--2">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--2">
-                    the forest hiker</span
-                  >
+                    the forest hiker
+                  </span>
                 </h4>
                 <div class="card__details">
                   <ul>
@@ -212,7 +214,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$497</p>
                   </div>
-                  <a class="btn btn--white" href="#">book now!</a>
+                  <a class="btn btn--white" href="#popup">book now!</a>
                 </div>
               </div>
             </div>
@@ -223,8 +225,8 @@
                 <div class="card__picture card__picture--3">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--3">
-                    the snow adventurer</span
-                  >
+                    the snow adventurer
+                  </span>
                 </h4>
                 <div class="card__details">
                   <ul>
@@ -242,7 +244,7 @@
                     <p class="card__price-only">only</p>
                     <p class="card__price-value">$897</p>
                   </div>
-                  <a class="btn btn--white" href="#">book now!</a>
+                  <a class="btn btn--white" href="#popup">book now!</a>
                 </div>
               </div>
             </div>
@@ -250,34 +252,6 @@
         </div>
         <div class="u-center-text u-margin-top-huge">
           <a class="btn btn--green" href="#">discover all tours</a>
-        </div>
-      </section>
-      <section class="section-stories">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">we make people genuinely happy</h2>
-        </div>
-        <div class="row">
-          <div class="story">
-            <figure class="story__shape">
-              <img
-                class="story__img"
-                src="img/nat-8.jpg"
-                alt="person on a tour"
-              />
-            </figure>
-            <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                i had the best week ever with my family
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, ipsum sapiente aspernatur libero repellat quis
-                consequatur ducimus quam nisi exercitationem omnis earum qui.
-                Aperiam, ipsum sapiente aspernatur libero repellat quis
-                consequatur ducimus quam nisi exercitationem omnis earum qui.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
       <section class="section-stories">
@@ -445,13 +419,14 @@
           </div>
         </div>
       </footer>
-      <div class="popup">
+      <div class="popup" id="popup">
         <div class="popup__content">
           <div class="popup__left">
             <img class="popup__img" src="img/nat-8.jpg" alt="tour photo" />
             <img class="popup__img" src="img/nat-9.jpg" alt="tour photo" />
           </div>
           <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
             <h2 class="heading-secondary u-margin-bottom-small">
               start booking now
             </h2>
